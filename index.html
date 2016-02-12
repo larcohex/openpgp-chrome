@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Getting Started Extension's Popup</title>
+	<title>PGP Decryptor</title>
 	<style>
 		body {
 			font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
@@ -13,13 +13,13 @@
 	<script src = "script.js"></script>
 </head>
 <body>
-	<p>Upload message: </p><input id = "message" type = "file"/><br>
+	<p>Upload public key: </p><input id = "public" type = "file"/><br>
 
-	<p>Upload secret key: </p><input id = "secret" type = "file"/><br>
+	<p>Upload private key: </p><input id = "private" type = "file"/><br>
 
-	<p>Secret key password: </p><input id = "password" type = "password"/><br><br>
-	<button id = "decrypt">Decrypt</button>
-	<p id = "output"></p>
+	<p>Private key password: </p><input id = "password" type = "password"/><br><br>
+	<button id = "sign">Sign</button><br><br>
+	<textarea id = "output" disabled = "disabled" rows = "10" cols = "45"></textarea>
 
 	<div id = "imgDiv"></div>
 </body>

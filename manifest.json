@@ -1,19 +1,19 @@
 {
-  "manifest_version": 2,
-  "name": "PGP Message Decryptor",
-  "description": "This extension uses OpenPGP.js library to decrypt pgp encrypted messages",
-  "version": "1.0",
-  "icons": {
-	"16": "resources/img/icon.png",
-	"48": "resources/img/icon.png",
-	"128": "resources/img/icon.png"
-  },
-  "browser_action": {
-	"default_icon": "resources/img/icon.png",
-	"default_popup": "index.html"
-  },
-  "permissions": [
-	"activeTab",
-	"https://ajax.googleapis.com/"
-  ]
+	"manifest_version": 2,
+	"name": "PGP Message Decryptor",
+	"description": "This extension uses OpenPGP.js library to decrypt pgp encrypted messages",
+	"version": "1.0",
+	"icons": {
+		"16": "resources/img/icon.png",
+		"48": "resources/img/icon.png",
+		"128": "resources/img/icon.png"
+	},
+	"browser_action": {
+		"default_icon": "resources/img/icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"activeTab",
+		"https://ajax.googleapis.com/"
+	]
 }
